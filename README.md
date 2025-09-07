@@ -8,17 +8,17 @@ Resume Sudharak is a smart, interactive dashboard that analyzes resumes using Co
 
 ## 🚀 Features
 
-- Upload PDF or DOCX resumes
-- Enter target job role and optional job description
-- Choose tone: Confident, Professional, or Friendly
+- Upload PDF or DOCX resumes  
+- Enter target job role and optional job description  
+- Choose tone: Confident, Professional, or Friendly  
 - Get AI-generated feedback on:
-  - Missing skills
-  - Formatting improvements
-  - Content suggestions
-  - Experience tailoring
-- Match score with radial gauge and progress bar
-- Skill coverage pie chart
-- Downloadable PDF report
+  - Missing skills  
+  - Formatting improvements  
+  - Content suggestions  
+  - Experience tailoring  
+- Match score with radial gauge and progress bar  
+- Skill coverage pie chart  
+- Downloadable PDF report  
 
 ---
 
@@ -26,7 +26,7 @@ Resume Sudharak is a smart, interactive dashboard that analyzes resumes using Co
 
 - Python · Streamlit · Cohere API  
 - scikit-learn · matplotlib · plotly  
-- pdfplumber · python-docx · reportlab
+- pdfplumber · python-docx · reportlab  
 
 ---
 
@@ -35,3 +35,29 @@ Resume Sudharak is a smart, interactive dashboard that analyzes resumes using Co
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+🧪 Sample Job Role
+Cybersecurity Intern
+
+Assist in monitoring network activity, identifying vulnerabilities, and supporting incident response. Familiarity with Wireshark, Burp Suite, and cloud platforms preferred.
+
+📸 Screenshots
+Add screenshots of your app here once deployed.
+
+🌐 Live Demo
+Coming soon via Streamlit Cloud...
+
+👩‍💻 Author
+Arunima Chakraborty Third-year CSE student at CHRIST University, Bengaluru Passionate about ethical tech, reproducibility, and AI-powered UX
+
+📬 Contact
+Feel free to connect via LinkedIn or email for feedback, collaboration, or internship opportunities.
+
+💻 Code
+All source code is available in this repository. Contributions, suggestions, and forks are welcome!
+
+Code
+
+---
+
+Once you paste this into GitHub and click **Commit new file**, your README will look clean, professiona
+
