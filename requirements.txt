@@ -1,0 +1,10 @@
+# Requirements for the project
+pydantic
+streamlit
+cohere
+scikit-learn
+matplotlib
+plotly
+python-docx
+pdfplumber
+reportlab
