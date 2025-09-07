@@ -29,9 +29,15 @@ Resume Sudharak is a smart, interactive dashboard that analyzes resumes using Co
 - pdfplumber · python-docx · reportlab  
 
 ---
+## 🌐 Live Demo
+
+[Click here to try Resume Sudharak](https://resume-sudharak-nfcgubqhyidicxozxlynrb.streamlit.app/)
 
 ## 📦 Installation
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+
+
