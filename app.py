@@ -28,16 +28,16 @@ def match_score(resume_text, job_description):
 
 def configure_api_key():
     st.sidebar.title("🔑 API Setup")
+    st.sidebar.info("To use the resume analysis features, get your free Cohere API key from [dashboard.cohere.com](https://dashboard.cohere.com) and paste it below.")
+    
     api_key = st.sidebar.text_input(
         "Enter Cohere API Key:",
         type="password",
         placeholder="prod_...",
-        help="Get your API key from https://dashboard.cohere.com"
+        help="Required to access AI-powered resume feedback"
     )
     if api_key:
         try:
-            if not api_key.startswith("prod_") and not api_key.startswith("trial_"):
-                st.sidebar.warning("⚠️ This doesn't look like a Cohere API key, but we'll try it anyway.")
             co = cohere.Client(api_key)
             _ = co.chat(message="Hello", model="command-r-plus")
             st.session_state.api_key_configured = True
