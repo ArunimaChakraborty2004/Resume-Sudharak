@@ -29,6 +29,17 @@ Resume Sudharak is a smart, interactive dashboard that analyzes resumes using Co
 - pdfplumber · python-docx · reportlab  
 
 ---
+## 🔑 API Key Requirement
+
+To use the resume analysis features, you’ll need a free **Cohere API key**.
+
+1. Visit [https://dashboard.cohere.com](https://dashboard.cohere.com)  
+2. Sign up or log in  
+3. Copy your API key (starts with `prod_...`)  
+4. Paste it into the sidebar of the app when prompted
+
+This ensures secure and personalized access to Cohere’s language models.
+
 ## 🌐 Live Demo
 
 [Click here to try Resume Sudharak](https://resume-sudharak-nfcgubqhyidicxozxlynrb.streamlit.app/)
@@ -38,6 +49,7 @@ Resume Sudharak is a smart, interactive dashboard that analyzes resumes using Co
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
 
 
 
