@@ -1,18 +1,37 @@
-# 📝 Smart Resume Reviewer
+# 📊 Resume Sudharak
 
-A Streamlit app that analyzes resumes using GPT-4 and provides structured feedback tailored to specific job roles.
+**Empowering job seekers with AI-driven resume reform.**
 
-## Features
+Resume Sudharak is a smart, interactive dashboard that analyzes resumes using Cohere’s LLMs and visualizes match scores, skill coverage, and feedback. Built with Streamlit, it helps candidates tailor their resumes to specific job roles.
+
+---
+
+## 🚀 Features
+
 - Upload PDF or DOCX resumes
-- Extract text using pdfplumber and python-docx
-- AI-powered analysis with OpenAI GPT-4
-- Structured feedback in multiple categories
-- Download feedback as formatted PDF reports
-- Clean, responsive user interface
+- Enter target job role and optional job description
+- Choose tone: Confident, Professional, or Friendly
+- Get AI-generated feedback on:
+  - Missing skills
+  - Formatting improvements
+  - Content suggestions
+  - Experience tailoring
+- Match score with radial gauge and progress bar
+- Skill coverage pie chart
+- Downloadable PDF report
 
-## Installation
+---
 
-1. Clone the repository:
+## 🧠 Tech Stack
+
+- Python · Streamlit · Cohere API  
+- scikit-learn · matplotlib · plotly  
+- pdfplumber · python-docx · reportlab
+
+---
+
+## 📦 Installation
+
 ```bash
-git clone <your-repo-url>
-cd smart-resume-reviewer
+pip install -r requirements.txt
+streamlit run app.py
